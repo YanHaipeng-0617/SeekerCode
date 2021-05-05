@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seeker Blog</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/blog.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- loading -->
+    <div id="_loading">
+        <h2 class="animate logo_font">Loading..</h2>
+    </div>
+
+    <div id="_loading_container_hidden">
+        <!-- 顶部栏 -->
+        <div class="topbar_box">
+            <div class="container">
+                <div class="row justify-content-between align-items-center" style="height:100px">
+
+                    <div class="logo_font" onclick="backToTop()">Seeker Code</div>
+
+                    <ul class="topbar_lists row align-items-center">
+                        <li class="col"><a href="./index.html">Home</a></li>
+                        <!-- <li class="col"><a href="./about.html">About</a></li> -->
+                        <li class="col"><a href="./blog.html">Blog</a></li>
+                        <li class="col" data-toggle="modal" data-target="#staticBackdrop">Contact</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- blog顶部介绍 -->
+        <div class="container" style="margin:100px auto;text-align: center;">
+            <div class="blog_title content_font">
+                <div>My Blog</div>
+                <div>Current Project</div>
+            </div>
+            <div class="row current_project justify-content-center align-items-center">
+                <div class="current_project_img">
+                    <img src="./assets/img/image-1.png" alt="">
+                </div>
+                <div class="project_introduce">
+                    <h4 class="content_font co_from">星野微信小程序</h4>
+                    <span>基于云开发</span>
+                    <span>成员来分别自福州大学、阳光学院和西北大学</span>
+                    <span>我主要负责前端和云后端，其他人负责UI设计、爬虫等工作</span>
+                    <span>期待在本次微信小程序大赛中取得好名次</span>
+                </div>
+            </div>
+
+            <div class="blog_title content_font">
+                <div style="display: none;">My Blog</div>
+                <div>Previous Project</div>
+            </div>
+
+            <div class="row previous_project"></div>
+
+        </div>
+
+        <!-- 底部 -->
+        <div class=" bottom">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div>© 2021 Seeker Code. All Rights Reserved</div>
+                    <div class="align-items-center">
+                        <a href="https://github.com/YanHaipeng-0617" class="col" target="_blank">
+                            <img src="./assets/fonts/svg/github.svg">
+                        </a>
+                        <a href="" class="col" target="_blank">
+                            <img src="./assets/fonts/svg/facebook.svg">
+                        </a>
+                        <a href="" class="col" target="_blank">
+                            <img src="./assets/fonts/svg/twitter.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Join Us</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img style="width: 100%;" src="./assets/img/join_us_pic.jpg" alt="">
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./assets/js/common.js" async="async"></script>
+<script src="./assets/js/blog.js" async="async"></script>
+
+</html>

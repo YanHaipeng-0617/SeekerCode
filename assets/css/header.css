@@ -1,0 +1,36 @@
+/* 顶部栏 */
+
+.topbar_box {
+  width: 100%;
+  top: -100px;
+  transition: top 0.3s, background-color 0.3s;
+  backdrop-filter: saturate(180%) blur(5px);
+}
+
+#topbar {
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  background-color: hsla(0, 0%, 100%, 0.8);
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.topbar_box .logo_font {
+  cursor: pointer;
+}
+
+.topbar_lists {
+  font-size: 18px;
+  cursor: pointer;
+  margin: 0 !important;
+}
+
+.topbar_lists li a {
+  transition: 0.3s;
+}
+
+.topbar_lists li a:hover {
+  color: #777;
+}

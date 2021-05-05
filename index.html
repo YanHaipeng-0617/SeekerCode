@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seeker Code</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- loading -->
+    <div id="_loading">
+        <h2 class="animate logo_font">Loading..</h2>
+    </div>
+
+    <div id="_loading_container_hidden">
+        <!-- 顶部栏 -->
+        <div class="topbar_box">
+            <div class="container">
+                <div class="row justify-content-between align-items-center" style="height:100px">
+
+                    <div class="logo_font" onclick="backToTop()">Seeker Code</div>
+
+                    <ul class="topbar_lists row align-items-center">
+                        <li class="col"><a href="./index.html">Home</a></li>
+                        <!-- <li class="col"><a href="./about.html">About</a></li> -->
+                        <li class="col"><a href="./blog.html">Blog</a></li>
+                        <li class="col" data-toggle="modal" data-target="#staticBackdrop">Contact</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 宗旨 -->
+        <div class="container" style="margin:100px auto;text-align: center;">
+            <div class="justify-content-center">
+                <div class="title_font">We build inspiring</div>
+                <div class="title_font">and ambitious</div>
+                <div class="title_font">code</div>
+            </div>
+            <div class="row content_font co_from justify-content-center">
+                <div class="title_btn" data-toggle="modal" data-target="#staticBackdrop">Get in touch</div>
+            </div>
+        </div>
+
+        <!-- 参与人员 -->
+        <div class="container user_box"></div>
+
+        <!-- 联系我们 -->
+        <div class="container" style="margin:100px auto;text-align: center;">
+            <div class="row content_font co_from justify-content-center">CONTACT US</div>
+            <div class="row justify-content-center">
+                <div class="title_font">Let's make something</div>
+                <div class="title_font">great together</div>
+            </div>
+            <div class="row content_font co_from justify-content-center">
+                <div class="title_btn" data-toggle="modal" data-target="#staticBackdrop">Get in touch</div>
+            </div>
+        </div>
+
+
+        <!-- 联系方式 -->
+        <div class="container contact_method">
+            <div class="row justify-content-between">
+                <div class="content_font">
+                    <h4>Ready to start a project?</h4>
+                    <div>Don't hesitate to contact us and figure out how we can help.</div>
+                </div>
+                <div class="content_font">
+                    <h4>Links</h4>
+                    <a href="">
+                        <div>
+                            Home
+                        </div>
+
+                    </a>
+                    <!-- <a href="">
+                    <div>
+                        About Us
+                    </div>
+                </a> -->
+                    <a href="./blog.html">
+                        <div>
+                            Blog
+                        </div>
+
+                    </a>
+                    <a href="" data-toggle="modal" data-target="#staticBackdrop">
+                        <div>
+                            Contact
+                        </div>
+
+                    </a>
+                </div>
+                <div class="content_font">
+                    <h4>Address</h4>
+                    <div>Yango University</div>
+                    <div>Mawei</div>
+                    <div>Fuzhou Fujian</div>
+                </div>
+                <div class="content_font">
+                    <h4>Contact</h4>
+                    <div>qq：1004048268@qq.com</div>
+                    <div>wx：SeekerYhp</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部 -->
+        <div class=" bottom">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div>© 2021 Seeker Code. All Rights Reserved</div>
+                    <div class="align-items-center">
+                        <a href="https://github.com/YanHaipeng-0617" class="col" target="_blank">
+                            <img src="./assets/fonts/svg/github.svg">
+                        </a>
+                        <a href="" class="col" target="_blank">
+                            <img src="./assets/fonts/svg/facebook.svg">
+                        </a>
+                        <a href="" class="col" target="_blank">
+                            <img src="./assets/fonts/svg/twitter.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Join Us</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img style="width: 100%;" src="./assets/img/join_us_pic.jpg" alt="">
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+<script src="./assets/js/common.js" async="async"></script>
+<script src="./assets/js/index.js" async="async"></script>
+
+</html>
