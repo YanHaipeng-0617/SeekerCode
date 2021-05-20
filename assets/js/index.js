@@ -12,12 +12,17 @@ let pageData = [
     {
         "imgSrc": "./assets/img/user3.jpg",
         "from": "FuJian",
-        "userName": "He DiFei"
+        "userName": "He Difei"
     },
     {
         "imgSrc": "./assets/img/user4.jpg",
         "from": "HeNan",
         "userName": "Wei Hangyu"
+    },
+    {
+        "imgSrc": "./assets/img/user5.jpg",
+        "from": "ShangHai",
+        "userName": "Feng"
     },
 ]
 
